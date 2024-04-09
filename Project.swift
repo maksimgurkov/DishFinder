@@ -47,7 +47,8 @@ extension SettingsDictionary {
         let markettingVersion = "1.0"
         return appleGenericVersioningSystem().merging([
             "CURRENT_PROJECT_VERSION": SettingValue(stringLiteral: currentProjectVersion),
-            "MARKETING_VERSION": SettingValue(stringLiteral: markettingVersion)
+            "MARKETING_VERSION": SettingValue(stringLiteral: markettingVersion),
+            "OTHER_LDFLAGS": SettingValue(stringLiteral: "-ObjC")
         ])
     }
 }
