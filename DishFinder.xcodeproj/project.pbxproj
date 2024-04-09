@@ -10,9 +10,9 @@
 		048B4A5D93FE40C550C455BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453EBF099BD5124DE24D9B7 /* ViewController.swift */; };
 		1DECCD35A4C3EB27A4AA7C7D /* YandexMobileAdsPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 51925352891C77D148F13082 /* YandexMobileAdsPackage */; };
 		2C3B35DC814958C222A0466F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D9AF0FC152983AE036AAB /* AppDelegate.swift */; };
-		760170AF2BC5B847007B1F85 /* MobileAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 760170AE2BC5B847007B1F85 /* MobileAdsBundle.bundle */; };
 		92179C89F4F93447EEB65C57 /* TuistAssets+DishFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D42461F979D49B802E6FF8 /* TuistAssets+DishFinder.swift */; };
 		9F1E8AC0552C87F085C2D1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BFDF7B1C0A514CAC064576F /* Assets.xcassets */; };
+		A87897512BC5C025007E1461 /* MobileAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A87897502BC5C025007E1461 /* MobileAdsBundle.bundle */; };
 		B11D975CDE977947E5657F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5EF22230A77A66905FBAEE /* LaunchScreen.storyboard */; };
 		FDDB7078B3FB634280010DFE /* TuistBundle+DishFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A3CE49840584728933517 /* TuistBundle+DishFinder.swift */; };
 /* End PBXBuildFile section */
@@ -36,10 +36,10 @@
 		26D42461F979D49B802E6FF8 /* TuistAssets+DishFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DishFinder.swift"; sourceTree = "<group>"; };
 		3C0D9AF0FC152983AE036AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C5EF22230A77A66905FBAEE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		760170AE2BC5B847007B1F85 /* MobileAdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileAdsBundle.bundle; path = ../../../Downloads/YandexMobileAds.xcframework/MobileAdsBundle.bundle; sourceTree = "<group>"; };
 		80A357464472CD61491F7E6E /* DishFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A162D34F77A299A030170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A453EBF099BD5124DE24D9B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A87897502BC5C025007E1461 /* MobileAdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobileAdsBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 		94A576BB0296B5265FA6E6B5 = {
 			isa = PBXGroup;
 			children = (
-				760170AE2BC5B847007B1F85 /* MobileAdsBundle.bundle */,
+				A87897502BC5C025007E1461 /* MobileAdsBundle.bundle */,
 				EA55BE2EDECB90019FE53A57 /* Project */,
 				DF63527B5E496B606891E4A1 /* Frameworks */,
 				1ABD27AD210BA969F6C2685E /* Cache */,
@@ -208,7 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				760170AF2BC5B847007B1F85 /* MobileAdsBundle.bundle in Resources */,
+				A87897512BC5C025007E1461 /* MobileAdsBundle.bundle in Resources */,
 				9F1E8AC0552C87F085C2D1BB /* Assets.xcassets in Resources */,
 				B11D975CDE977947E5657F3C /* LaunchScreen.storyboard in Resources */,
 			);
@@ -302,7 +302,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -321,6 +320,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = maksim.gurkov.DishFinder;
 				PRODUCT_NAME = DishFinder;
 				SDKROOT = iphoneos;
@@ -391,7 +391,6 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -409,6 +408,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = maksim.gurkov.DishFinder;
 				PRODUCT_NAME = DishFinder;
 				SDKROOT = iphoneos;
