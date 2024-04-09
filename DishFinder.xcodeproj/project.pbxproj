@@ -10,7 +10,7 @@
 		048B4A5D93FE40C550C455BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453EBF099BD5124DE24D9B7 /* ViewController.swift */; };
 		1DECCD35A4C3EB27A4AA7C7D /* YandexMobileAdsPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 51925352891C77D148F13082 /* YandexMobileAdsPackage */; };
 		2C3B35DC814958C222A0466F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D9AF0FC152983AE036AAB /* AppDelegate.swift */; };
-		760170AD2BC5B380007B1F85 /* MobileAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 760170AC2BC5B380007B1F85 /* MobileAdsBundle.bundle */; };
+		760170AF2BC5B847007B1F85 /* MobileAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 760170AE2BC5B847007B1F85 /* MobileAdsBundle.bundle */; };
 		92179C89F4F93447EEB65C57 /* TuistAssets+DishFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D42461F979D49B802E6FF8 /* TuistAssets+DishFinder.swift */; };
 		9F1E8AC0552C87F085C2D1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BFDF7B1C0A514CAC064576F /* Assets.xcassets */; };
 		B11D975CDE977947E5657F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5EF22230A77A66905FBAEE /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 		26D42461F979D49B802E6FF8 /* TuistAssets+DishFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DishFinder.swift"; sourceTree = "<group>"; };
 		3C0D9AF0FC152983AE036AAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C5EF22230A77A66905FBAEE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		760170AC2BC5B380007B1F85 /* MobileAdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileAdsBundle.bundle; path = ../../../Downloads/YandexMobileAds.xcframework/MobileAdsBundle.bundle; sourceTree = "<group>"; };
+		760170AE2BC5B847007B1F85 /* MobileAdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileAdsBundle.bundle; path = ../../../Downloads/YandexMobileAds.xcframework/MobileAdsBundle.bundle; sourceTree = "<group>"; };
 		80A357464472CD61491F7E6E /* DishFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A162D34F77A299A030170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A453EBF099BD5124DE24D9B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		94A576BB0296B5265FA6E6B5 = {
 			isa = PBXGroup;
 			children = (
-				760170AC2BC5B380007B1F85 /* MobileAdsBundle.bundle */,
+				760170AE2BC5B847007B1F85 /* MobileAdsBundle.bundle */,
 				EA55BE2EDECB90019FE53A57 /* Project */,
 				DF63527B5E496B606891E4A1 /* Frameworks */,
 				1ABD27AD210BA969F6C2685E /* Cache */,
@@ -208,7 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				760170AD2BC5B380007B1F85 /* MobileAdsBundle.bundle in Resources */,
+				760170AF2BC5B847007B1F85 /* MobileAdsBundle.bundle in Resources */,
 				9F1E8AC0552C87F085C2D1BB /* Assets.xcassets in Resources */,
 				B11D975CDE977947E5657F3C /* LaunchScreen.storyboard in Resources */,
 			);
