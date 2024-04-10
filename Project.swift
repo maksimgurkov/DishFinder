@@ -23,7 +23,10 @@ let target = Target.target(
     sources: ["DishFinder/Sources/**"],
     resources: ["DishFinder/Resources/**"],
     scripts: [TargetScript.post(script: swiftLintScript, name: "swiftLintScript")],
-    dependencies: [.package(product: "YandexMobileAdsPackage")]
+    dependencies: [
+        .package(product: "YandexMobileAdsPackage"),
+        .project(target: "DishFinderDI", path: "DishFinderDI")
+    ]
 )
 
 let project = Project(
