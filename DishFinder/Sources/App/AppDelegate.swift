@@ -1,5 +1,6 @@
 import UIKit
 import YandexMobileAds
+import DishFinderDI
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -10,6 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
     ) -> Bool {
+        RegisterAssembly.shared.registerAssembly()
         MobileAds.initializeSDK(completionHandler: completionHandler)
         return true
     }
@@ -18,8 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
+        @Dependency var tabBarModule: TabBarViewController
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ViewController()
+        window?.rootViewController = tabBarModule
         window?.makeKeyAndVisible()
         return true
     }
