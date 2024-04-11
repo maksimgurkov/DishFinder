@@ -7,6 +7,10 @@ final class RegisterAssembly {
     static let shared = RegisterAssembly()
     private let assemblies: [Assembly] = [
         ProductsAssembly(),
+        DishAssembly(),
+        LikeAssembly(),
+        BasketAssembly(),
+        ProfileAssembly(),
         TabBarAssembly()
     ]
 
