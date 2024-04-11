@@ -10,6 +10,7 @@ final class RegisterAssembly {
         DishAssembly(),
         LikeAssembly(),
         BasketAssembly(),
+        ProfileAssembly(),
         TabBarAssembly()
     ]
 

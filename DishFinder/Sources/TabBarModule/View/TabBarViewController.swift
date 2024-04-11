@@ -51,11 +51,13 @@ private extension TabBarViewController {
         @Dependency var dishModule: DishViewController
         @Dependency var likeModule: LikeViewController
         @Dependency var basketModule: BasketViewController
+        @Dependency var profileModule: ProfileViewController
         self.viewControllers = [
             generator(viewController: productModule, title: "Продукты", image: UIImage(systemName: "carrot")),
             generator(viewController: dishModule, title: "Рецепты", image: UIImage(systemName: "book.pages")),
             generator(viewController: likeModule, title: "Избранные", image: UIImage(systemName: "star")),
-            generator(viewController: basketModule, title: "Покупки", image: UIImage(systemName: "basket"))
+            generator(viewController: basketModule, title: "Покупки", image: UIImage(systemName: "basket")),
+            generator(viewController: profileModule, title: "Профиль", image: UIImage(systemName: "person"))
         ]
     }
 }

@@ -31,6 +31,11 @@
 		760171492BC6BB1F007B1F85 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760171482BC6BB1F007B1F85 /* BasketViewController.swift */; };
 		7601714B2BC6BB33007B1F85 /* BasketInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601714A2BC6BB33007B1F85 /* BasketInput.swift */; };
 		7601714D2BC6BD30007B1F85 /* BasketAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601714C2BC6BD30007B1F85 /* BasketAssembly.swift */; };
+		760171522BC7DEE2007B1F85 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760171512BC7DEE2007B1F85 /* ProfilePresenter.swift */; };
+		760171542BC7DEEF007B1F85 /* ProfilePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760171532BC7DEEF007B1F85 /* ProfilePresenterProtocol.swift */; };
+		760171562BC7DEF9007B1F85 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760171552BC7DEF9007B1F85 /* ProfileViewController.swift */; };
+		760171582BC7DF01007B1F85 /* ProfileInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760171572BC7DF01007B1F85 /* ProfileInput.swift */; };
+		7601715A2BC7E081007B1F85 /* ProfileAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760171592BC7E081007B1F85 /* ProfileAssembly.swift */; };
 		92179C89F4F93447EEB65C57 /* TuistAssets+DishFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D42461F979D49B802E6FF8 /* TuistAssets+DishFinder.swift */; };
 		9F1E8AC0552C87F085C2D1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BFDF7B1C0A514CAC064576F /* Assets.xcassets */; };
 		A575E14E94AD2A8246E06193 /* ProductsPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C6169F155FDF234378088B /* ProductsPresenterProtocol.swift */; };
@@ -86,6 +91,11 @@
 		760171482BC6BB1F007B1F85 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
 		7601714A2BC6BB33007B1F85 /* BasketInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketInput.swift; sourceTree = "<group>"; };
 		7601714C2BC6BD30007B1F85 /* BasketAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketAssembly.swift; sourceTree = "<group>"; };
+		760171512BC7DEE2007B1F85 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		760171532BC7DEEF007B1F85 /* ProfilePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenterProtocol.swift; sourceTree = "<group>"; };
+		760171552BC7DEF9007B1F85 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		760171572BC7DF01007B1F85 /* ProfileInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInput.swift; sourceTree = "<group>"; };
+		760171592BC7E081007B1F85 /* ProfileAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembly.swift; sourceTree = "<group>"; };
 		80A357464472CD61491F7E6E /* DishFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A162D34F77A299A030170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A453EBF099BD5124DE24D9B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +197,7 @@
 				760171322BC6B0EB007B1F85 /* DishAssembly.swift */,
 				7601713F2BC6B6C0007B1F85 /* LikeAssembly.swift */,
 				7601714C2BC6BD30007B1F85 /* BasketAssembly.swift */,
+				760171592BC7E081007B1F85 /* ProfileAssembly.swift */,
 			);
 			path = Assemblies;
 			sourceTree = "<group>";
@@ -272,6 +283,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7601714E2BC7DEBB007B1F85 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				760171502BC7DED4007B1F85 /* View */,
+				7601714F2BC7DECE007B1F85 /* Presenter */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		7601714F2BC7DECE007B1F85 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				760171512BC7DEE2007B1F85 /* ProfilePresenter.swift */,
+				760171532BC7DEEF007B1F85 /* ProfilePresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		760171502BC7DED4007B1F85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				760171552BC7DEF9007B1F85 /* ProfileViewController.swift */,
+				760171572BC7DF01007B1F85 /* ProfileInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7EA5C6F7778C02CBDF5698FA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +319,7 @@
 				760171272BC6AE85007B1F85 /* DishModule */,
 				760171342BC6B32F007B1F85 /* LikeModule */,
 				760171412BC6BA95007B1F85 /* BasketModule */,
+				7601714E2BC7DEBB007B1F85 /* ProfileModule */,
 				4709F84399CD16AF62F820C0 /* TabBarModule */,
 				A453EBF099BD5124DE24D9B7 /* ViewController.swift */,
 			);
@@ -472,10 +511,13 @@
 				FDDB7078B3FB634280010DFE /* TuistBundle+DishFinder.swift in Sources */,
 				760171492BC6BB1F007B1F85 /* BasketViewController.swift in Sources */,
 				2C3B35DC814958C222A0466F /* AppDelegate.swift in Sources */,
+				760171522BC7DEE2007B1F85 /* ProfilePresenter.swift in Sources */,
 				F32058C24DC4F5C05335FBA6 /* ProductsAssembly.swift in Sources */,
+				760171562BC7DEF9007B1F85 /* ProfileViewController.swift in Sources */,
 				760171452BC6BB09007B1F85 /* BasketPresenterProtocol.swift in Sources */,
 				FEEFAAA35004F9228196E908 /* TabBarAssembly.swift in Sources */,
 				BC69512F57C6823ADF76AB2A /* RegisterAssembly.swift in Sources */,
+				7601715A2BC7E081007B1F85 /* ProfileAssembly.swift in Sources */,
 				5E18354B4A1E6DDD56E7A3DA /* ProductsPresenter.swift in Sources */,
 				7601713A2BC6B395007B1F85 /* LikePresenter.swift in Sources */,
 				A575E14E94AD2A8246E06193 /* ProductsPresenterProtocol.swift in Sources */,
@@ -487,8 +529,10 @@
 				69FB13ADA86F0763777C698B /* ProductsViewController.swift in Sources */,
 				7601712D2BC6AEEA007B1F85 /* DishPresenter.swift in Sources */,
 				760171332BC6B0EB007B1F85 /* DishAssembly.swift in Sources */,
+				760171542BC7DEEF007B1F85 /* ProfilePresenterProtocol.swift in Sources */,
 				7601713C2BC6B3D0007B1F85 /* LikeInput.swift in Sources */,
 				64568D66941CD42275689266 /* TabBarPresenter.swift in Sources */,
+				760171582BC7DF01007B1F85 /* ProfileInput.swift in Sources */,
 				760171382BC6B38D007B1F85 /* LikePresenterProtocol.swift in Sources */,
 				F40D829B002FE225CB4CC130 /* TabBarPresenterProtocol.swift in Sources */,
 				7601712F2BC6AF2B007B1F85 /* DishViewController.swift in Sources */,
