@@ -28,7 +28,14 @@
 		69D5198FEB7CC48763ACBA51 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF761DE3B48CE6DF9AB959F /* ProfilePresenter.swift */; };
 		69FB13ADA86F0763777C698B /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69860DE912BA5F7DA9DA4CD /* ProductsViewController.swift */; };
 		6D167183B3F71889040143F6 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FADBEDA7650C2E67026329 /* BasketViewController.swift */; };
-		7621D5A62BC7E8AD002DCBE9 /* MobileAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7621D5A52BC7E8AD002DCBE9 /* MobileAdsBundle.bundle */; };
+		7621D5AA2BC7EA3E002DCBE9 /* MobileAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7621D5A92BC7EA3E002DCBE9 /* MobileAdsBundle.bundle */; };
+		7621D5AD2BC7F1A3002DCBE9 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621D5AC2BC7F1A3002DCBE9 /* ProductModel.swift */; };
+		7621D5B02BC7F45D002DCBE9 /* ProductTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621D5AF2BC7F45D002DCBE9 /* ProductTableManager.swift */; };
+		7621D5B22BC7F469002DCBE9 /* ProductTableManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621D5B12BC7F469002DCBE9 /* ProductTableManagerProtocol.swift */; };
+		7621D5B52BC7F4B1002DCBE9 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621D5B42BC7F4B1002DCBE9 /* ProductViewModel.swift */; };
+		7621D5B82BC7F67E002DCBE9 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621D5B72BC7F67E002DCBE9 /* ProductTableViewCell.swift */; };
+		7621D5BB2BC7F763002DCBE9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621D5BA2BC7F763002DCBE9 /* UIView+Extension.swift */; };
+		7621D5BD2BC7F7D8002DCBE9 /* UICollectionCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621D5BC2BC7F7D8002DCBE9 /* UICollectionCell+Extension.swift */; };
 		7F16AE1E62CC6A246B6A7448 /* BasketPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147BAD6EAD31206391DAD4E /* BasketPresenter.swift */; };
 		81CF5FEE4EA3BA4946466BF2 /* DishFinderCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AAC3FFEF87CEE8F517E4A1 /* DishFinderCore.framework */; };
 		9135E6DE92A5773AC95F76F5 /* DishFinderUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC31B0D9F34C1F1221FE0735 /* DishFinderUI.framework */; };
@@ -87,7 +94,14 @@
 		6C5EF22230A77A66905FBAEE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7299998011B8C1B72E2FB380 /* ProfileAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembly.swift; sourceTree = "<group>"; };
 		72C5BA9EBC460BFA6E085049 /* DishPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPresenterProtocol.swift; sourceTree = "<group>"; };
-		7621D5A52BC7E8AD002DCBE9 /* MobileAdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobileAdsBundle.bundle; sourceTree = "<group>"; };
+		7621D5A92BC7EA3E002DCBE9 /* MobileAdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobileAdsBundle.bundle; sourceTree = "<group>"; };
+		7621D5AC2BC7F1A3002DCBE9 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		7621D5AF2BC7F45D002DCBE9 /* ProductTableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableManager.swift; sourceTree = "<group>"; };
+		7621D5B12BC7F469002DCBE9 /* ProductTableManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableManagerProtocol.swift; sourceTree = "<group>"; };
+		7621D5B42BC7F4B1002DCBE9 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		7621D5B72BC7F67E002DCBE9 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		7621D5BA2BC7F763002DCBE9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		7621D5BC2BC7F7D8002DCBE9 /* UICollectionCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionCell+Extension.swift"; sourceTree = "<group>"; };
 		80A357464472CD61491F7E6E /* DishFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AAC3FFEF87CEE8F517E4A1 /* DishFinderCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DishFinderCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A162D34F77A299A030170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -128,6 +142,8 @@
 		0203EA59790FB1428196FAEB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7621D5B62BC7F671002DCBE9 /* Cell */,
+				7621D5B32BC7F4A3002DCBE9 /* ViewModel */,
 				F22974FAD28A12C67077FCD4 /* ProductsInput.swift */,
 				A69860DE912BA5F7DA9DA4CD /* ProductsViewController.swift */,
 			);
@@ -154,6 +170,7 @@
 		17222C16D6F2383E66750FCF /* ProductsModule */ = {
 			isa = PBXGroup;
 			children = (
+				7621D5AE2BC7F444002DCBE9 /* Manager */,
 				19DF6AAF6D7DC891C81ADD9A /* Presenter */,
 				0203EA59790FB1428196FAEB /* View */,
 			);
@@ -235,6 +252,48 @@
 			path = Assemblies;
 			sourceTree = "<group>";
 		};
+		7621D5AB2BC7F18B002DCBE9 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				7621D5AC2BC7F1A3002DCBE9 /* ProductModel.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		7621D5AE2BC7F444002DCBE9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7621D5AF2BC7F45D002DCBE9 /* ProductTableManager.swift */,
+				7621D5B12BC7F469002DCBE9 /* ProductTableManagerProtocol.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7621D5B32BC7F4A3002DCBE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7621D5B42BC7F4B1002DCBE9 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7621D5B62BC7F671002DCBE9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7621D5B72BC7F67E002DCBE9 /* ProductTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7621D5B92BC7F722002DCBE9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7621D5BA2BC7F763002DCBE9 /* UIView+Extension.swift */,
+				7621D5BC2BC7F7D8002DCBE9 /* UICollectionCell+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		791DBE99EF3063DF6F9B62CD /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,12 +315,14 @@
 		7EA5C6F7778C02CBDF5698FA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				7621D5B92BC7F722002DCBE9 /* Extensions */,
+				7621D5AB2BC7F18B002DCBE9 /* DataManager */,
 				9E760891E74BDEF0B97907CD /* App */,
 				25803AD468F5D153D9D1E2FC /* AssemblyModule */,
 				A8326D803FC3224822ADEA86 /* BasketModule */,
+				17222C16D6F2383E66750FCF /* ProductsModule */,
 				84A91F8134BDB6F0E1C686F0 /* DishModule */,
 				09CE02CB201D4C7896C9E0F6 /* LikeModule */,
-				17222C16D6F2383E66750FCF /* ProductsModule */,
 				E994772F16A4605255C4E7F9 /* ProfileModule */,
 				4709F84399CD16AF62F820C0 /* TabBarModule */,
 				A453EBF099BD5124DE24D9B7 /* ViewController.swift */,
@@ -299,7 +360,7 @@
 		94A576BB0296B5265FA6E6B5 = {
 			isa = PBXGroup;
 			children = (
-				7621D5A52BC7E8AD002DCBE9 /* MobileAdsBundle.bundle */,
+				7621D5A92BC7EA3E002DCBE9 /* MobileAdsBundle.bundle */,
 				EA55BE2EDECB90019FE53A57 /* Project */,
 				DF63527B5E496B606891E4A1 /* Frameworks */,
 				1ABD27AD210BA969F6C2685E /* Cache */,
@@ -481,7 +542,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7621D5A62BC7E8AD002DCBE9 /* MobileAdsBundle.bundle in Resources */,
+				7621D5AA2BC7EA3E002DCBE9 /* MobileAdsBundle.bundle in Resources */,
 				9F1E8AC0552C87F085C2D1BB /* Assets.xcassets in Resources */,
 				B11D975CDE977947E5657F3C /* LaunchScreen.storyboard in Resources */,
 			);
@@ -520,17 +581,22 @@
 				2C3B35DC814958C222A0466F /* AppDelegate.swift in Sources */,
 				2547932AA0D9D7E0C7280241 /* BasketAssembly.swift in Sources */,
 				0C813E6E9103AB4B9F5A468B /* DishAssembly.swift in Sources */,
+				7621D5B52BC7F4B1002DCBE9 /* ProductViewModel.swift in Sources */,
 				53A9CDB094C2F2B4B9C99AB2 /* LikeAssembly.swift in Sources */,
 				F32058C24DC4F5C05335FBA6 /* ProductsAssembly.swift in Sources */,
 				67FF9D1917864AD1B073CCF2 /* ProfileAssembly.swift in Sources */,
 				FEEFAAA35004F9228196E908 /* TabBarAssembly.swift in Sources */,
 				BC69512F57C6823ADF76AB2A /* RegisterAssembly.swift in Sources */,
 				7F16AE1E62CC6A246B6A7448 /* BasketPresenter.swift in Sources */,
+				7621D5BB2BC7F763002DCBE9 /* UIView+Extension.swift in Sources */,
+				7621D5B02BC7F45D002DCBE9 /* ProductTableManager.swift in Sources */,
 				EC34D489990193AF9857ED78 /* BasketPresenterProtocol.swift in Sources */,
 				B9C5CDF459AC56E14B2125CA /* BasketInput.swift in Sources */,
 				6D167183B3F71889040143F6 /* BasketViewController.swift in Sources */,
 				E499C45B75BB41866EC08F7A /* DishPresenter.swift in Sources */,
+				7621D5B82BC7F67E002DCBE9 /* ProductTableViewCell.swift in Sources */,
 				C657AB129A48A99E1647717B /* DishPresenterProtocol.swift in Sources */,
+				7621D5BD2BC7F7D8002DCBE9 /* UICollectionCell+Extension.swift in Sources */,
 				9916F0A744C46D55C5F10278 /* DishInput.swift in Sources */,
 				20FBCC17A4019C81536079A7 /* DishViewController.swift in Sources */,
 				65635211D14A38021AF7BEA1 /* LikePresenter.swift in Sources */,
@@ -540,12 +606,14 @@
 				5E18354B4A1E6DDD56E7A3DA /* ProductsPresenter.swift in Sources */,
 				A575E14E94AD2A8246E06193 /* ProductsPresenterProtocol.swift in Sources */,
 				A8B47715AA85DA243B7BE576 /* ProductsInput.swift in Sources */,
+				7621D5B22BC7F469002DCBE9 /* ProductTableManagerProtocol.swift in Sources */,
 				69FB13ADA86F0763777C698B /* ProductsViewController.swift in Sources */,
 				69D5198FEB7CC48763ACBA51 /* ProfilePresenter.swift in Sources */,
 				AA989236A6599928B66F7722 /* ProfilePresenterProtocol.swift in Sources */,
 				2231C7FABBFC42157BFFC254 /* ProfileInput.swift in Sources */,
 				469F7C8534F58521DF9C5926 /* ProfileViewController.swift in Sources */,
 				64568D66941CD42275689266 /* TabBarPresenter.swift in Sources */,
+				7621D5AD2BC7F1A3002DCBE9 /* ProductModel.swift in Sources */,
 				F40D829B002FE225CB4CC130 /* TabBarPresenterProtocol.swift in Sources */,
 				54E0683E6B63238A34818DFE /* TabBarInput.swift in Sources */,
 				4DC72857DD8AE421DBE7958C /* TabBarViewController.swift in Sources */,
