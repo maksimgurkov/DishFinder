@@ -25,7 +25,9 @@ let target = Target.target(
     scripts: [TargetScript.post(script: swiftLintScript, name: "swiftLintScript")],
     dependencies: [
         .package(product: "YandexMobileAdsPackage"),
-        .project(target: "DishFinderDI", path: "DishFinderDI")
+        .project(target: "DishFinderDI", path: "DishFinderDI"),
+        .project(target: "DishFinderCore", path: "DishFinderCore"),
+        .project(target: "DishFinderUI", path: "DishFinderUI")
     ]
 )
 
